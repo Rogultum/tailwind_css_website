@@ -887,6 +887,10 @@ a {
   font-family: Gemunu Libre, sans-serif;
 }
 
+.font-open {
+  font-family: Open Sans, sans-serif;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1065,6 +1069,10 @@ a {
 }
 
 @media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:h-128 {
     height: 32rem;
   }
