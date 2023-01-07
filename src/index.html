@@ -24,9 +24,17 @@
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
 
-  <body class="font-open">
+  <body class="font-open dark">
+    <!-- Dark/Light Toggle -->
+    <div class="absolute top-3 left-5 cursor-pointer text-lg">
+      <i class="fa-solid fa-sun text-white" id="sun"></i>
+      <i class="fa-solid fa-moon text-black hidden" id="moon"></i>
+    </div>
+
     <!-- Header Section -->
-    <header class="bg-black py-6 lg:py-12 text-gega-grey">
+    <header
+      class="dark:bg-black bg:white text-black py-6 lg:py-12 dark:text-gega-grey"
+    >
       <!-- Header Container -->
       <div
         class="container flex items-center justify-between space-x-8 lg:space-x-16"
@@ -782,10 +790,10 @@
             <input
               type="text"
               placeholder="TYPE YOUR E-MAIL"
-              class="py-1 px-2 bg-transparent placeholder:text-xs border border-gega-red outline-none"
+              class="arin placeholder:text-xs border border-gega-red outline-none"
             />
             <button
-              class="py-1 px-2 bg-transparent border border-gega-red bg-gega-red font-gemunu uppercase"
+              class="arin border border-gega-red bg-gega-red font-gemunu uppercase"
             >
               SUBSCRIBE
             </button>
@@ -793,5 +801,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
